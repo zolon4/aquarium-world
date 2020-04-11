@@ -15,6 +15,13 @@ const Home = () => {
   return (
     <div className="w-screen h-screen">
       <ReactPlayer url={url} playing muted width="100%" height="100%" />
+      <div className="d-none">
+        <ReactPlayer
+          url="https://soundcloud.com/zolon-wilkins/0003a"
+          playing
+          soundcloudConfig={{ preload: true }}
+        />
+      </div>
     </div>
   );
 };
