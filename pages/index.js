@@ -13,7 +13,7 @@ const Home = () => {
   var url = streams[Math.floor(Math.random() * streams.length)];
 
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen h-screen ">
       <ReactPlayer url={url} playing muted width="100%" height="100%" />
       <div className="hidden">
         <ReactPlayer
