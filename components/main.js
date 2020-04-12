@@ -31,7 +31,7 @@ const Main = () => {
   let overlay;
 
   if (!userReady) {
-    overlay = <PermissionsOverlay onAccept={setUserReady} />;
+    return <PermissionsOverlay onAccept={setUserReady} />;
   } else if (userReady && audioLoading) {
     overlay = <Loading />;
   }
