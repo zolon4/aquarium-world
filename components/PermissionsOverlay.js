@@ -6,9 +6,14 @@ const PermissionsOverlay = (props) => {
 
   return (
     <div className="loading-bg fixed z-10 h-full w-full flex items-center justify-center">
-      <h1 className="text-5xl text-white cursor-pointer" onClick={handleClick}>
-        Enter Virtual Aquarium
-      </h1>
+      <div className="w-full md:w-8/12">
+        <h1
+          className="text-10xl text-white cursor-pointer"
+          onClick={handleClick}
+        >
+          Enter Aquarium
+        </h1>
+      </div>
     </div>
   );
 };

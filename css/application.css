@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Lemur";
+  src: url("/fonts/Lemur-Regular.ttf");
+  src: url("/fonts/Lemur-Bold.ttf");
+  src: url("/fonts/Lemur-Light.ttf");
+  src: url("/fonts/Lemur-Medium.ttf");
+  src: url("/fonts/Lemur-Regular.ttf");
+}
+
+body {
+  font-family: "Lemur";
+}
+
 .spin {
   animation: rotation 2s infinite linear;
 }
