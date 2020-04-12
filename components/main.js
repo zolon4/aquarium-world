@@ -9,6 +9,7 @@ const streams = [
   "https://www.youtube.com/watch?v=LvfaMv9nbJc",
   "https://www.youtube.com/watch?v=F109TZt3nRc",
   "https://www.youtube.com/watch?v=p9SjR0VNQZY",
+  "https://www.youtube.com/watch?v=5JjGc5fN1K0",
 ];
 
 const Main = () => {
@@ -39,7 +40,9 @@ const Main = () => {
     <div>
       <Head>
         <title>aquarium by zolon</title>
-        <meta property="og:title" content="aquarium" />
+        <meta property="og:title" content="zolon's aquarium thing" />
+        <meta property="og:image" content="/og.png" />
+
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="w-screen h-screen">
